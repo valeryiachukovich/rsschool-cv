@@ -1,0 +1,101 @@
+html {
+    background-color: #F7F3F0;
+}
+h2 {
+    color: #291329;
+    font-family: 'Vesper Libre', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #AE6C59;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; 
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    position: relative;
+}
+.header__title_content {
+    padding: 40px;
+    font-family: 'Vesper Libre', serif;
+}
+
+.header__avatar {
+    max-width: 500px;
+}
+
+.header__title {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    background-color: #fff;
+    max-width: 400px;
+
+}
+
+.name,
+.surname {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #291329;
+}
+.surname {
+    margin-bottom: 20px;
+}
+.position {
+    font-size: 23px;
+    color: #AE6C59;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.header__text {
+    line-height: 24px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+.main {
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.skills,
+.contacts,
+.education,
+.experience,
+.english {
+    width: 50%;
+    margin-bottom: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+.experience__text,
+.english {
+    line-height: 24px;
+}
+
+.skills li,
+.contacts li {
+    margin: 8px 0;
+}
+
+.education dt {
+    margin: 8px 0;
+}
+.education dd {
+    margin: 0 0 0 10px;
+}
